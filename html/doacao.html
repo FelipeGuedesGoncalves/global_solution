@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+    </style>
+    <link rel="stylesheet" href="../css/styledoacao.css">
+</head>
+
+<body>
+    <script src="../js/scriptdoacao.js"></script>
+    <!-- CABEÇALHO -->
+    <div class="banner1">
+        <header>
+            <a href="../html/index.html"><button class="button1"><img class="logo" src="../img/logo_hunzer.png" alt=""></button></a>
+            <a href="../html/index.html"><button class="button1">Página inicial</button></a>
+            <a href="../html/doacao.html"><button class="button2">Doação</button></a>
+            <a href="../html/sobre.html"><button class="button3" >Sobre</button></a> 
+            <a href="../html/desafios.html"><button class="button4">Desafios</button></a> 
+            <a href="../html/premios.html"><button class="button5">Prêmios</button></a> 
+            <a href="../html/perfil.html"><button class="button6">Meu Perfil<img class="signsymbol" src="../img/pessoas/mulherperfil.jpg" alt=""></button></a>  
+        </header>
+
+        <!-- TITULO -->
+
+        <h1 class="titulobanner">Ponha um sorriso no rosto de alguém ;)</h1>
+        <h2 class="subtitulobanner">Não faça a diferença apenas, SEJA a diferença</h2>
+    </div>
+
+    <!-- CARTAO VERDE -->
+
+    <div class="cartaoverde1">
+        <div class="texto">
+            <h1 class="titulocartaoverde1">COM POUCOS CLIQUES, VOCÊ PODE SER A AJUDA QUE ALGUÉM PRECISA.</h1>
+            <br>
+            <p class="pcartaoverde1">Ajude-nos a alimentar o mundo. Preencha o formulário e envie sua doação agora
+                mesmo. Juntos, podemos fazer a diferença!</p>
+        </div>
+        <img class="homem" src="../img/pessoas/homem.png" alt="homem">
+    </div>
+
+
+
+    <!-- FORMULARIO DOACAO -->
+    
+    <form>
+        <h1 class="msgt">Qualquer quantia é mais que bem-vinda :)</h1>
+
+        <div class="bloco">
+            <h2 class="descricao">Nome Completo<span class="asterisco">&nbsp;*</span></h2>
+            <input class="campo" type="text" value="Fulana Almeida">
+        </div>
+
+        <div class="bloco">
+            <h2 class="descricao">Email<span class="asterisco">&nbsp;*</span></h2>
+            <input class="campo" type="email" value="Fulanaalmeida@gmail.com.br">
+        </div>
+
+        <div class="bloco">
+            <h2 class="descricao">Telefone<span class="asterisco">&nbsp;*</span></h2>
+            <input class="campo" type="tel" value="+55 (11) 91234-5678">
+        </div>
+
+        <div class="bloco">
+            <h2 class="descricao">Endereço<span class="asterisco">&nbsp;*</span></h2>
+            <input class="campo" type="text" value="Rua Legal, 21 - Jd. Bem Bacana">
+        </div>
+
+        <div class="bloco">
+            <h2 class="descricao">Gênero<span class="asterisco">&nbsp;*</span></h2>
+            <select class="campo" required>
+                <option value="" disabled selected>Selecione seu gênero</option>
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                <option value="outro">Outro</option>
+                <option value="nao_dizer">Prefiro não dizer</option>
+            </select>
+        </div>
+
+        <div class="bloco">
+            <h2 class="descricao">CPF<span class="asterisco">&nbsp;*</span></h2>
+            <input class="campo" type="text" value="123.456.789.10">
+        </div>
+
+        <div class="bloco">
+            <h2 class="descricao">Data de Nascimento<span class="asterisco">&nbsp;*</span></h2>
+            <input class="campo" type="date" value="2001-09-22">
+        </div>
+
+        <div class="bloco">
+            <h2 class="descricao">Forma de Pagamento<span class="asterisco">&nbsp;*</span></h2>
+            <div class="paga">
+                <select class="campo pag" required>
+                    <option value="" disabled selected>Selecione a forma de pagamento</option>
+                    <option value="cartao">Cartão de Crédito</option>
+                    <option value="boleto">Boleto Bancário</option>
+                    <option value="transferencia">Transferência Bancária</option>
+                </select>
+                <img class="bandeiras" src="../img/simbolos/bandeiras.png" alt="">
+            </div>
+        </div>
+
+        <div class="bloco">
+            <h2 class="descricao">Mensagem</h2>
+            <textarea id="input-field" class="campo" placeholder="Digite uma mensagem (opcional)"
+                maxlength="1000"></textarea>
+        </div>
+
+        <div class="bloco">
+            <h2 class="descricao">Quantia a Doar<span class="asterisco">&nbsp;*</span></h2>
+            <div class="campo-dinheiro">R$
+                <input class="valor" required type="text" placeholder="0,00" maxlength="20" oninput="formatarValor(this)">
+            </div>
+        </div>
+
+        <div class="confirmar">
+            <button class="confirmard" type="submit">Doar</button>
+            <p class="ctz">Ao clicar em Doar, você concorda com nossas, Política de privacidade e Política de cookies.
+            </p>
+        </div>
+
+    </form>
+    <!-- FOOTER -->
+    <footer>
+        <div class="empresas">
+            <p class="textofooter">Projeto sugerido e apoiado por:</p>
+            <img class="imgempresas" src="../img/simbolos/todasempresas.png" alt="logos empresas">
+        </div>
+        <div class="divisão"></div>
+        <div class="textofooterr">
+            <p>INTEGRANTES DO GRUPO</p>
+            <br>
+            <p>(Nina Rebello francisco - RM: 99509)
+                (Camila dos Santos Cunha - RM: 551785)
+                (Guilherme Rodrigues de Castro - RM: 99624)
+                (Luiz Fellipe Soares de Sousa Lucena - RM: 551365)
+                (Felipe Guedes Gonçalves - RM: 550906)</p>
+            <br>
+            <p>© 2023 Hunzer. Todos os direitos reservados. Junte-se a nós na luta contra a fome e pela agricultura
+                sustentável.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

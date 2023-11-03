@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CABEÇALHO */
+.logo{
+    width: 200px;
+}
+
+header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+button{
+    background-color: transparent;
+    font-size: 20px;
+    height: 50px;
+    width: fit-content;
+    border: none;
+    color: #fff;
+}
+
+.button3{
+    text-decoration: underline;
+}
+
+.button6{
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    height: 50px;
+    width: 160px;
+    padding-left: 6px;
+    border: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.2s ease;
+    text-decoration: underline #fff;
+}
+
+.button6:hover{
+    font-size: 20px;
+    background-color: #a3db07;
+    border-radius: 50px;
+    height: 50px;
+    width: 160px;
+    padding-left: 6px;
+    border: solid 5px #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: underline #a3db07;
+    cursor: pointer;
+}
+
+.signsymbol{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    margin-left: 13px;
+    border-radius: 20px;
+}
+
+button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* TITULO */
+
+.banner1{
+    background-image: url(../img/banners/hungry_boy.jpg);
+    min-width: 1200px;
+    max-width: 100%;
+    min-height: 900px;
+    max-height: 900px;
+    text-align: center;
+    background-position-x: -10px;
+    background-position-y: -160px;
+    background-size: 110% ;
+    background-repeat: no-repeat;
+    box-shadow: inset 500px 200px 250px -10px rgb(26, 8, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 0;
+}
+
+.titulobanner{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    left: 67px;
+    top: 150px;
+    font-size: 52px;
+    width: 570px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.subtitulobanner{
+    color: #a3db07;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 450px;
+    font-size: 30px;
+    width: 400px;
+    text-align: left;
+    left: 67px;
+}
+
+/* SAIBA MAIS */
+
+.saibamais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulocartaobranco1{
+    font-size: 50px;
+    color: #a3db07;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 100px;
+}
+
+.faixaverde{
+    display: flex;
+    flex-direction: row;
+    background-color: #a3db07;
+    width: 100%;
+    height: 270px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 40px 2px #000000b2;
+}
+
+.simbolobranco{
+    width: 150px;
+    height: 150px;
+}
+
+.texto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    width: 67%;
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+
+.texto1{
+    color: #a3db07;
+    width: 200px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.msgbonita{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 100px;
+    height: 470px;
+    background-color: #a3db07;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.empresas{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    padding: 5%;
+    margin: 1.5%;
+}
+
+.divisão{
+    position: relative;
+    height: 400px;
+    background-color: #fff;
+    width: 7px;
+}
+
+.textofooter{
+    position: relative;
+    color: #fff;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.textofooterr{
+    width: 47%;
+    margin: 2%;
+    position: relative;
+    color: #fff;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    flex-direction: column;
+    font-size: 20px;
+}
+

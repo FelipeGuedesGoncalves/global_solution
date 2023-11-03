@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* CABEÇALHO */
+.logo{
+    width: 200px;
+}
+
+header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+button{
+    background-color: transparent;
+    font-size: 20px;
+    height: 50px;
+    width: fit-content;
+    border: none;
+    color: #fff;
+}
+
+.button2{
+    text-decoration: underline;
+}
+
+.button6{
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    height: 50px;
+    width: 160px;
+    padding-left: 6px;
+    border: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.2s ease;
+    text-decoration: underline #fff;
+}
+
+.button6:hover{
+    font-size: 20px;
+    background-color: #a3db07;
+    border-radius: 50px;
+    height: 50px;
+    width: 160px;
+    padding-left: 6px;
+    border: solid 5px #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: underline #a3db07;
+    cursor: pointer;
+}
+
+.signsymbol{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    margin-left: 13px;
+    border-radius: 20px;
+}
+
+button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* TITULO */
+
+.banner1{
+    background-image: url(../img/banners/sorriso.jpg);
+    min-width: 1200px;
+    max-width: 100%;
+    height: 800px;
+    text-align: center;
+    background-position-x: -600px;
+    background-position-y: -300px;
+    background-size: 200% ;
+    background-repeat: no-repeat;
+    box-shadow: inset 500px 200px 250px -10px rgb(26, 8, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 0;
+}
+
+.titulobanner{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    left: 67px;
+    top: 150px;
+    font-size: 60px;
+    width: 510px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.subtitulobanner{
+    color: #a3db07;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 430px;
+    font-size: 30px;
+    width: 400px;
+    text-align: left;
+    left: 67px;
+}
+
+/* CARTÃO VERDE */
+
+.cartaoverde1{
+    background-color: #a3db07;
+    height: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.texto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    width: 800px;
+    text-align: right;
+}
+
+.titulocartaoverde1{
+    color: #fff;
+    font-size: 49.4px;
+    font-family: 'Lato', sans-serif;
+}
+
+.pcartaoverde1{
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #fff;
+
+}
+
+.homem{
+    width: 430px;
+    height: 600px;
+}
+
+/* FORMULARIO DOACAO */
+
+.msgt{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    color: #a3db07;
+    font-size: 35px;
+    top: 200px;
+    
+}
+
+form{
+    margin-top: -90px;
+    margin-bottom: 550px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bloco{
+    width: 100%;
+    top: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: left;
+}
+
+.descricao{
+    margin-bottom: -15px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 20px;
+}
+
+.campo{
+    font-size: 18px;
+    height: 80px;
+    width: 60%;
+    border: solid 4px #a3db07;
+    border-radius: 50px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 0px 15px 1px #00000059;
+
+}
+
+.campo{
+    border: solid 4px #a3db07;
+}
+
+.paga{
+    margin-left: -60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 60%;
+}
+
+.pag{
+    width: 100%;
+}
+
+.bandeiras{
+    height: 80px;
+    width: 350px;
+}
+
+.campo-dinheiro{
+    position: relative;
+    margin: 30px;
+    height: 160px;
+    width: 60%;
+    background-color: #a3db07;
+    box-shadow: inset 30px 50px 60px 4px #daffaf, inset -30px -50px 60px 4px #36c729, 0px 0px 15px 1px #00000059;
+    border: none;
+    border-radius: 50px;
+    padding: 40px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 90px;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.valor{
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 90px;
+    width: 500px;
+
+}
+
+.confirmar{
+    top: 330px;
+    position: relative;
+    height: 60px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.confirmard{
+    background-color: #a3db07;
+    color: #fff;
+    width: 30%;
+    border-radius: 50px;
+    font-weight: 700;
+    box-shadow: 0px 0px 15px 1px #00000059;
+    transition: 0.2s ease;
+    height: 60px;
+}
+
+.confirmard:hover{
+    background-color: #fff;
+    color: #a3db07;
+    border: solid 4px #a3db07;
+    width: 30%;
+    border-radius: 50px;
+    font-weight: 700;
+    box-shadow: 0px 0px 15px 1px #00000059;
+    text-decoration: none;
+}
+
+.ctz{
+    color: #a3db07;
+    font-weight: 700;
+    width: 65%;
+}
+
+.asterisco{
+    color: #a3db07;
+    font-weight: 700;
+}
+
+.campo-dinheiro input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 100px;
+    height: 470px;
+    background-color: #a3db07;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.empresas{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    padding: 5%;
+    margin: 1.5%;
+}
+
+.divisão{
+    position: relative;
+    height: 400px;
+    background-color: #fff;
+    width: 7px;
+}
+
+.textofooter{
+    position: relative;
+    color: #fff;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.textofooterr{
+    width: 47%;
+    margin: 2%;
+    position: relative;
+    color: #fff;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    flex-direction: column;
+    font-size: 20px;
+}
+

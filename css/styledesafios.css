@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CABEÇALHO */
+.logo{
+    width: 200px;
+}
+
+header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+button{
+    background-color: transparent;
+    font-size: 20px;
+    height: 50px;
+    width: fit-content;
+    border: none;
+    color: #fff;
+}
+
+.button4{
+    text-decoration: underline;
+}
+
+.button6{
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    height: 50px;
+    width: 160px;
+    padding-left: 6px;
+    border: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.2s ease;
+    text-decoration: underline #fff;
+}
+
+.button6:hover{
+    font-size: 20px;
+    background-color: #a3db07;
+    border-radius: 50px;
+    height: 50px;
+    width: 160px;
+    padding-left: 6px;
+    border: solid 5px #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: underline #a3db07;
+    cursor: pointer;
+}
+
+.signsymbol{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    margin-left: 13px;
+    border-radius: 20px;
+}
+
+button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* TITULO */
+
+.banner1{
+    background-image: url(../img/banners/plantinha.jpg);
+    min-width: 1200px;
+    max-width: 100%;
+    height: 700px;
+    text-align: center;
+    background-size: 110% ;
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+    background-position-y: -160px;
+    box-shadow: inset 500px 200px 250px -10px rgb(26, 8, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    top: 0;
+}
+
+.titulobanner{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    left: 67px;
+    top: 150px;
+    font-size: 52px;
+    width: 600px;
+    text-align: left;
+}
+
+.subtitulobanner{
+    color: #a3db07;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 400px;
+    font-size: 30px;
+    width: 500px;
+    text-align: left;
+    left: 67px;
+}
+
+.verde{
+    color: #a3db07;
+    
+}
+
+/* TUDO */
+
+#all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* FAIXA */
+
+.faixaverde{
+    background-color: #a3db07;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    flex-direction: column;
+    position: relative;
+}
+
+.titulod{
+    position: relative;
+    font-size: 50px;
+}
+
+
+.desafio{
+    background-color: #fff;
+    width: 80%;
+    height: 270px;
+    color: #a3db07;
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    margin: 35px;
+    box-shadow: 0px 0px 15px 1px #00000059;
+}
+
+.imgdesafio{
+    width: 30%;
+    height: 200px;
+    object-fit: cover;
+    margin: 25px;
+    margin-left: 40px;
+    border-radius: 50px;
+    
+}
+
+.informacoes{
+    width: 70%;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.infoverde{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.desc{
+    color: #8d8d8d;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.preco{
+    padding: 10px;
+}
+
+.progresso{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textocinza{
+    color: #c5c5c5;
+    font-size: 17px;
+    margin: 3px;
+}
+
+.moeda{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-bottom: -5px;
+}
+
+.vermais{
+    height: 60px;
+    width: 35%;
+    background-color: #a3db07;
+    border-radius: 50px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 15px 1px #00000059;
+    font-family: 'Lato', sans-serif;
+    transition: 0.2s ease;
+}
+
+.vermais:hover{
+    cursor: pointer;
+    border: solid 4px #a3db07;
+    background-color: #fff;
+    color: #a3db07;
+    text-decoration: none;
+}
+
+.faixabranca{
+    background-color: #fff;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a3db07;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0px 0px 15px 1px #00000059;
+
+}
+
+.f2{
+    z-index: 2;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0px -20px 20px 1px #00000041;
+}
+
+.simbolobranco{
+    width: 150px;
+    height: 150px;
+}
+
+.texto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    width: 67%;
+    text-align: justify;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+
+.texto1{
+    color: #a3db07;
+    width: 600px;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.msgbonita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    height: 470px;
+    background-color: #a3db07;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.empresas{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    padding: 5%;
+    margin: 1.5%;
+}
+
+.divisão{
+    position: relative;
+    height: 400px;
+    background-color: #fff;
+    width: 7px;
+}
+
+.textofooter{
+    position: relative;
+    color: #fff;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.textofooterr{
+    width: 47%;
+    margin: 2%;
+    position: relative;
+    color: #fff;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    flex-direction: column;
+    font-size: 20px;
+}
